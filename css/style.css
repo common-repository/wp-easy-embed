@@ -1,0 +1,39 @@
+span.wpeasyembed-required {
+	color: red;
+	font-weight: bold;
+}
+
+div#media-upload-header {
+	margin: 0;
+	padding: 0 5px;
+	font-weight: bold;
+	position: relative;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	height: 2.5em;
+}
+
+body#media-upload ul#sidemenu {
+	font-weight: normal;
+	margin: 0 5px;
+	position: relative;
+	left: 0px;
+	bottom: -4px;
+}
+
+* html #sidemenu li {
+	zoom: 100%;
+}
+
+* html #sidemenu a {
+	height: 27px;
+	line-height: 26px;
+}
+
+#embedform {
+	margin-top: 0px;
+	margin-left: 10px;
+}
+#embedform #preview_area {
+	border: 1px solid #DFDFDF;
+}

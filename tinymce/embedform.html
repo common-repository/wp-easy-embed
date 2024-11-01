@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<script type="text/javascript" src="js/easyembed.js?v=1.1"></script>
+</head>
+<body id="media-upload" style="display:none;">
+<div id="embedform" class="wrap">
+	<form onsubmit="return wpEasyEmbed.submit(this);">
+	<table class="form-table">
+	<tbody>
+		<tr valign="top">
+			<th scope="row">{#wpeasyembed.url_title}<span class="wpeasyembed-required">*</span></th>
+			<td><input type="text" name="url" value="" title="{#wpeasyembed.url_hint}"/></td>
+		</tr>
+		<tr valign="top">
+			<th scope="row">{#wpeasyembed.width_title}</th>
+			<td><input type="text" name="maxwidth" value="" /></td>
+		</tr>
+		<tr valign="top">
+			<th scope="row">{#wpeasyembed.height_title}</th>
+			<td><input type="text" name="maxheight" value="" /></td>
+		</tr>
+		<tr valign="top" id="additional_button" style="display:none;">
+			<td colspan="2"><a class="button" href="#" onclick="return wpEasyEmbed.fetchAdditionalFields();">{#wpeasyembed.has_additional_fields}</a></td>
+		</tr>
+		<tr valign="top">
+			<th scope="row">{#wpeasyembed.preview_title}</th>
+			<td><a id="showpreview" class="button" href="#" onclick="return wpEasyEmbed.preview();">{#wpeasyembed.preview_button}</a><a id="hidepreview" class="button" href="#" onclick="return wpEasyEmbed.hidePreview();" style="display:none;">{#wpeasyembed.hidepreview_button}</a></td>
+		</tr>
+		<tr valign="top" id="preview_row" style="display:none;">
+			<td colspan="2" id="preview_area"></td>
+		</tr>
+	</tbody>
+	</table>
+	<p class="submit"><input type="submit" value="{#wpeasyembed.submit}" class="button-primary" /></p>
+	</form>
+</div>
+</body>
+</html>
